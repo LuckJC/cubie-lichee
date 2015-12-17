@@ -37,7 +37,7 @@ size = 16384
 [partition]
     name         = bootloader
     size         = 65536
-    downloadfile = "boot-resource.fex"
+    downloadfile = "bootloader.fex"
     user_type    =0x8000
     verify       = 1
 ;------------------------------>mmcblk0p5/nandb

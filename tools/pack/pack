@@ -362,7 +362,7 @@ function do_pack_linux()
     do_debug
     do_parse
     
-    cp -rf chips/$PACK_CHIP/tools/split_xxxx.fex  chips/$PACK_CHIP/boot-resource/boot-resource chips/$PACK_CHIP/boot-resource/boot-resource.ini \
+    cp -rf chips/$PACK_CHIP/tools/split_xxxx.fex  chips/$PACK_CHIP/boot-resource/boot-resource chips/$PACK_CHIP/boot-resource/boot-resource.ini chips/$PACK_CHIP/tools/aul* \
         out/
 	cp -rf chips/$PACK_CHIP/tools/usbtool.fex chips/$PACK_CHIP/tools/cardtool.fex chips/$PACK_CHIP/tools/cardscript.fex \
     out/
