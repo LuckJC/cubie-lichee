@@ -15,8 +15,8 @@ tools/pack/out/
 tools/pack/*.img
 buildroot/dl/
 
-brandy
-buildroot
+#brandy
+#buildroot
 
 u-boot/tools/sunxi_env_gen
 u-boot/examples/standalone/hello_world
