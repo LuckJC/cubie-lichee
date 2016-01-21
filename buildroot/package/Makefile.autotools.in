@@ -79,7 +79,6 @@ $(2)_SRCDIR                     = $$($(2)_DIR)/$($(2)_SUBDIR)
 #
 ifndef $(2)_CONFIGURE_CMDS
 ifeq ($(5),target)
-
 # Configure package for target
 define $(2)_CONFIGURE_CMDS
 	(cd $$($$(PKG)_SRCDIR) && rm -rf config.cache && \

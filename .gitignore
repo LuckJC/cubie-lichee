@@ -8,12 +8,18 @@
 !.gitignore
 
 linux-3.4/
+buildroot/output/
 buildroot/target/dragonboard/rootfs.tar.gz
 buildroot/target/dragonboard/sysroot.tar.gz
+buildroot/target/dragonboard/output/bin/
+buildroot/target/dragonboard/rootfs.ext4
+buildroot/target/dragonboard/rootfs/
+buildroot/target/dragonboard/sysroot/
+buildroot/target/dragonboard/src/lib/libscript.a
+buildroot/dl/
 out/
 tools/pack/out/
 tools/pack/*.img
-buildroot/dl/
 
 #brandy
 #buildroot

@@ -437,6 +437,7 @@ $(2)_POST_INSTALL_TARGET_HOOKS  ?=
 
 # human-friendly targets and target sequencing
 $(1):			$(1)-install
+$(warning $(1))
 
 ifeq ($$($(2)_TYPE),host)
 $(1)-install:	        $(1)-install-host
@@ -506,6 +507,7 @@ $$($(2)_TARGET_DIRCLEAN):		PKG=$(2)
 ifeq ($$(BR2_PACKAGE_$(2)),y)
 
 TARGETS += $(1)
+$(warning BR2_PACKAGE_$(2) = $(BR2_PACKAGE_$(2)))
 
 ifeq ($$($(2)_SITE_METHOD),svn)
 DL_TOOLS_DEPENDENCIES += svn

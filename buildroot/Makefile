@@ -78,6 +78,7 @@ endif
 # Pull in the user's configuration file
 ifeq ($(filter $(noconfig_targets),$(MAKECMDGOALS)),)
 -include $(CONFIG_DIR)/.config
+$(warning .config = $(CONFIG_DIR)/.config)
 endif
 
 # Override BR2_DL_DIR if shell variable defined
