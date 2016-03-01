@@ -3,7 +3,7 @@
 *.cmd
 *.d
 *.log
-*.patch
+#*.patch
 
 !.gitignore
 
